@@ -1,0 +1,238 @@
+/*  reset css */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header,  menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+    font-family:"Microsoft YaHei","MicrosoftJhengHei", "微软雅黑", "Arial", Lato, "Helvetic Neue",'Icons',"Hiragino Sans GB", "microsoft yahei", arial, sans-serif !important;
+}
+ul {
+    list-style: none;
+}
+/*clearfix*/
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+
+    zoom: 1;
+}
+
+/*icon字体*/
+@font-face {
+    font-family: 'Icons';
+    src: url(../fonts/icons.ttf) format('truetype'),
+    url(../fonts/icons.otf),
+    url(../fonts/icons.woff) format('woff') ,
+    url(../fonts/icons.eot) format('eot') ,
+    url(../fonts/icons.svg) format('svg') ;
+
+}
+
+
+/*主体*/
+
+body,html{
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #ffffff;
+
+}
+
+/*head部分*/
+
+header{
+    width: 100%;
+    display: block;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+
+    z-index: 999;
+    opacity: .97;
+    border-bottom: 1px solid transparent;
+
+}
+.h_main{
+    margin: 0 auto;
+    width: 1200px;
+    height: 81px;
+}
+.h_main_left{
+    float: left;
+    width: 500px;
+    height: 100%;
+}
+.h_main_right{
+    float: left;
+    width: 700px;
+    height: 100%;
+}
+.h_main_left>img{
+    position: relative;
+    top: 17px;
+}
+.h_ul>li{
+    float: left;
+    padding: 31px 26px;
+
+
+}
+.h_ul>li>a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+
+
+}
+
+
+.h_banner{
+        width: 100%;
+        height: 470px;
+       background: url("../imgs/header-1.jpg") no-repeat;
+       background-size:cover;
+       background-position: 50% 50%;
+       display: flex;
+
+      align-items: center;
+
+
+}
+
+/*main*/
+
+.Content{
+
+      margin: 0 auto;
+      width: 1200px;
+     height: 800px;
+
+}
+.Content h1{
+    text-align: center;
+    margin-top: 10rem;
+    letter-spacing: 10px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.Content h5{
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.map{
+    width: 433px;
+    height: 433px;
+    float: left;
+}
+.explain{
+    width: 567px;
+    height: 433px;
+    margin-left: 200px;
+    padding: 3rem 0;
+    float: left;
+}
+.map>img{
+    width: 100%;
+    height: auto;
+}
+
+.explain .com{
+    width: 100%;
+    margin-bottom: 53px;
+
+}
+.explain .com img{
+
+    margin-right: 36px;
+
+    opacity: .9;
+
+}
+.explain .com p{
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 5px;
+    line-height: 25px;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+
+    background: #f8f8f8;
+}
+.f_main{
+
+      margin: 0 auto;
+      height: 470px;
+      width: 1200px;
+      padding: 10rem 0 6rem 0;
+
+
+}
+.coms{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.coms a{
+
+    color: #000000;
+    cursor: pointer;
+    margin: 0 15px;
+    font-size: 12px;
+}
+.coms i{
+    position: relative;
+    top: 1px;
+}
+.coms span{
+    color: #c9c9c9;
+    font-style: oblique;
+
+}
+.coms p{
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+.coms a:hover{
+     color: #666666;
+}
+.coms img{
+    margin-left: 15px;
+    margin-right: 5px;
+
+}
+.QR{
+    position: absolute;
+    top: -127px;left: 1021px;
+    width: 130px;
+}
+
+
